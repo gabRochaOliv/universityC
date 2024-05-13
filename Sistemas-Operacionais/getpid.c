@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
-#include <sys/wait.h>
+#include <sys/wait.h> // essa lib não funciona no compilador normal pois não tem permissão
  
 int main ()
 {
